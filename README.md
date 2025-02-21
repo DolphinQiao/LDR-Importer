@@ -6,8 +6,8 @@ LDraw&trade; is an open standard for LEGO CAD programs that allow the user to cr
 you have physically built, create building instructions just like LEGO, render 3D photo realistic images of your virtual models and even make animations.
 The possibilities are endless. Unlike real LEGO bricks where you are limited by the number of parts and colors, in LDraw nothing is impossible.
 
-## Purpose ##
-The purpose of the LDR Importer is to import LDraw and LDraw compatible parts and models into Blender as they should be (including proper mesh and materials). However, options to improve the import, such as cleaning up said mesh and other features, are available at the user's disposal. Other options, such as photo-realism, are left to the user to perform.
+## Updates by [@DolphinQiao](https://github.com/DolphinQiao)
+**Object import is now supported and tested for Blender 3.x and 4.x versions. Due to material node system updates in Blender 2.80+, the author [@DolphinQiao](https://github.com/DolphinQiao) has made corresponding modifications to the material components, though these changes remain untested in full.**  
 
 ## Releases ##
 All releases are available on the [Releases](https://github.com/le717/LDR-Importer/releases) page. It is always recommended to use the newest release unless otherwise noted.
