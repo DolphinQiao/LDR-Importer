@@ -112,7 +112,7 @@ class Preferences:
         curOS = platform.system()
         if curOS == "Windows":
             self.__curPlatform = "win"
-        elif curOS == "Darwin":
+        elif curOS == "Darwin" or curOS == "mac":
             self.__curPlatform = "mac"
         elif curOS == "Linux":
             self.__curPlatform = "linux"
